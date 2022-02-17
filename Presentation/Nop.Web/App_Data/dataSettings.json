@@ -1,0 +1,5 @@
+﻿{
+  "DataConnectionString": "Data Source=.;Initial Catalog=BCommerce;Integrated Security=False;Persist Security Info=False;User ID=sa;Password=123456",
+  "DataProvider": "sqlserver",
+  "RawDataSettings": {}
+}
