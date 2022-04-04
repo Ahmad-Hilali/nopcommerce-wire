@@ -1,7 +1,7 @@
-﻿using Nop.Core.Domain.Discounts;
-using Nop.Core.Events;
-using Nop.Services.Configuration;
-using Nop.Services.Events;
+﻿using BWire.Core.Domain.Discounts;
+using BWire.Core.Events;
+using BWire.Services.Configuration;
+using BWire.Services.Events;
 
 namespace Nop.Plugin.DiscountRules.CustomerRoles.Infrastructure.Cache
 {

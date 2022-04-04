@@ -1,9 +1,9 @@
 ﻿using Autofac;
-using Nop.Core.Configuration;
-using Nop.Core.Infrastructure;
-using Nop.Core.Infrastructure.DependencyManagement;
+using BWire.Core.Configuration;
+using BWire.Core.Infrastructure;
+using BWire.Core.Infrastructure.DependencyManagement;
 using Nop.Plugin.Misc.SendinBlue.Services;
-using Nop.Services.Messages;
+using BWire.Services.Messages;
 
 namespace Nop.Plugin.Misc.SendinBlue.Infrastructure
 {

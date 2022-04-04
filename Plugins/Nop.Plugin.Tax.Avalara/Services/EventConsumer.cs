@@ -1,21 +1,21 @@
 ﻿using System;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Primitives;
-using Nop.Core;
-using Nop.Core.Domain.Orders;
-using Nop.Core.Events;
-using Nop.Services.Catalog;
-using Nop.Services.Common;
-using Nop.Services.Customers;
-using Nop.Services.Events;
-using Nop.Services.Orders;
-using Nop.Services.Security;
-using Nop.Services.Tax;
-using Nop.Web.Areas.Admin.Models.Catalog;
-using Nop.Web.Areas.Admin.Models.Customers;
-using Nop.Web.Areas.Admin.Models.Orders;
-using Nop.Web.Framework.Events;
-using Nop.Web.Framework.Models;
+using BWire.Core;
+using BWire.Core.Domain.Orders;
+using BWire.Core.Events;
+using BWire.Services.Catalog;
+using BWire.Services.Common;
+using BWire.Services.Customers;
+using BWire.Services.Events;
+using BWire.Services.Orders;
+using BWire.Services.Security;
+using BWire.Services.Tax;
+using BWire.Web.Areas.Admin.Models.Catalog;
+using BWire.Web.Areas.Admin.Models.Customers;
+using BWire.Web.Areas.Admin.Models.Orders;
+using BWire.Web.Framework.Events;
+using BWire.Web.Framework.Models;
 
 namespace Nop.Plugin.Tax.Avalara.Services
 {

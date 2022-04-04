@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Nop.Core.Infrastructure.Mapper;
+using BWire.Core.Infrastructure.Mapper;
 using Nop.Plugin.Widgets.FacebookPixel.Domain;
 using Nop.Plugin.Widgets.FacebookPixel.Models;
 

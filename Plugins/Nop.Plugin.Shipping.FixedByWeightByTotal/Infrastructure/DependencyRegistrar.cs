@@ -1,7 +1,7 @@
 ﻿using Autofac;
-using Nop.Core.Configuration;
-using Nop.Core.Infrastructure;
-using Nop.Core.Infrastructure.DependencyManagement;
+using BWire.Core.Configuration;
+using BWire.Core.Infrastructure;
+using BWire.Core.Infrastructure.DependencyManagement;
 using Nop.Plugin.Shipping.FixedByWeightByTotal.Services;
 
 namespace Nop.Plugin.Shipping.FixedByWeightByTotal.Infrastructure

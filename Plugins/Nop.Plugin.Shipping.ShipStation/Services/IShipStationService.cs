@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using Nop.Services.Shipping;
+using BWire.Services.Shipping;
 
 namespace Nop.Plugin.Shipping.ShipStation.Services
 {

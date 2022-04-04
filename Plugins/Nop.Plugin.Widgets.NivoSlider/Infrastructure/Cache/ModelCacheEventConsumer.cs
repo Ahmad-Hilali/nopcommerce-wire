@@ -1,7 +1,7 @@
-﻿using Nop.Core.Caching;
-using Nop.Core.Domain.Configuration;
-using Nop.Core.Events;
-using Nop.Services.Events;
+﻿using BWire.Core.Caching;
+using BWire.Core.Domain.Configuration;
+using BWire.Core.Events;
+using BWire.Services.Events;
 
 namespace Nop.Plugin.Widgets.NivoSlider.Infrastructure.Cache
 {

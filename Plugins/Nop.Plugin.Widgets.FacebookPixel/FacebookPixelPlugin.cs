@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.Routing;
-using Nop.Core.Domain.Cms;
+using BWire.Core.Domain.Cms;
 using Nop.Plugin.Widgets.FacebookPixel.Services;
-using Nop.Services.Cms;
-using Nop.Services.Configuration;
-using Nop.Services.Localization;
-using Nop.Services.Plugins;
-using Nop.Web.Framework.Infrastructure;
+using BWire.Services.Cms;
+using BWire.Services.Configuration;
+using BWire.Services.Localization;
+using BWire.Services.Plugins;
+using BWire.Web.Framework.Infrastructure;
 
 namespace Nop.Plugin.Widgets.FacebookPixel
 {

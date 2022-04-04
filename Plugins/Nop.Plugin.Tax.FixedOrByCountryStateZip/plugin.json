@@ -4,7 +4,7 @@
   "SystemName": "Tax.FixedOrByCountryStateZip",
   "Version": "1.33",
   "SupportedVersions": [ "4.30" ],
-  "Author": "nopCommerce team",
+  "Author": "b-Wire team",
   "DisplayOrder": 1,
   "FileName": "Nop.Plugin.Tax.FixedOrByCountryStateZip.dll",
   "Description": "This plugin allow to configure fix tax rates or tax rates by countries, states and zip codes"

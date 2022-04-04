@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Nop.Plugin.Tax.Avalara.Services;
-using Nop.Services.Localization;
-using Nop.Services.Messages;
-using Nop.Services.Security;
-using Nop.Services.Tax;
-using Nop.Web.Areas.Admin.Controllers;
+using BWire.Services.Localization;
+using BWire.Services.Messages;
+using BWire.Services.Security;
+using BWire.Services.Tax;
+using BWire.Web.Areas.Admin.Controllers;
 
 namespace Nop.Plugin.Tax.Avalara.Controllers
 {

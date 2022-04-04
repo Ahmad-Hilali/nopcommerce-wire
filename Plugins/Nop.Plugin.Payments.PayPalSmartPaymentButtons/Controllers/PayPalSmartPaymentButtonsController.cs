@@ -1,19 +1,19 @@
 ﻿using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nop.Core;
-using Nop.Core.Domain.Orders;
+using BWire.Core;
+using BWire.Core.Domain.Orders;
 using Nop.Plugin.Payments.PayPalSmartPaymentButtons.Domain;
 using Nop.Plugin.Payments.PayPalSmartPaymentButtons.Models;
 using Nop.Plugin.Payments.PayPalSmartPaymentButtons.Services;
-using Nop.Services;
-using Nop.Services.Configuration;
-using Nop.Services.Localization;
-using Nop.Services.Messages;
-using Nop.Services.Security;
-using Nop.Web.Framework;
-using Nop.Web.Framework.Controllers;
-using Nop.Web.Framework.Mvc.Filters;
+using BWire.Services;
+using BWire.Services.Configuration;
+using BWire.Services.Localization;
+using BWire.Services.Messages;
+using BWire.Services.Security;
+using BWire.Web.Framework;
+using BWire.Web.Framework.Controllers;
+using BWire.Web.Framework.Mvc.Filters;
 
 namespace Nop.Plugin.Payments.PayPalSmartPaymentButtons.Controllers
 {

@@ -1,12 +1,12 @@
-﻿using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Messages;
-using Nop.Core.Domain.Orders;
-using Nop.Core.Events;
-using Nop.Services.Events;
-using Nop.Services.Messages;
-using Nop.Web.Framework.Events;
-using Nop.Web.Framework.Models;
-using Nop.Web.Models.Catalog;
+﻿using BWire.Core.Domain.Customers;
+using BWire.Core.Domain.Messages;
+using BWire.Core.Domain.Orders;
+using BWire.Core.Events;
+using BWire.Services.Events;
+using BWire.Services.Messages;
+using BWire.Web.Framework.Events;
+using BWire.Web.Framework.Models;
+using BWire.Web.Models.Catalog;
 
 namespace Nop.Plugin.Widgets.FacebookPixel.Services
 {

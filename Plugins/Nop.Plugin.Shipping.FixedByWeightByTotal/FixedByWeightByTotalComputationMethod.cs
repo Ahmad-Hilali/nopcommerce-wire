@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Nop.Core;
-using Nop.Core.Domain.Shipping;
+using BWire.Core;
+using BWire.Core.Domain.Shipping;
 using Nop.Plugin.Shipping.FixedByWeightByTotal.Domain;
 using Nop.Plugin.Shipping.FixedByWeightByTotal.Services;
-using Nop.Services.Configuration;
-using Nop.Services.Localization;
-using Nop.Services.Orders;
-using Nop.Services.Plugins;
-using Nop.Services.Shipping;
-using Nop.Services.Shipping.Tracking;
+using BWire.Services.Configuration;
+using BWire.Services.Localization;
+using BWire.Services.Orders;
+using BWire.Services.Plugins;
+using BWire.Services.Shipping;
+using BWire.Services.Shipping.Tracking;
 
 namespace Nop.Plugin.Shipping.FixedByWeightByTotal
 {

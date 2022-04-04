@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Nop.Core;
-using Nop.Core.Domain.Tax;
-using Nop.Services.Common;
-using Nop.Services.Customers;
-using Nop.Web.Framework.Controllers;
+using BWire.Core;
+using BWire.Core.Domain.Tax;
+using BWire.Services.Common;
+using BWire.Services.Customers;
+using BWire.Web.Framework.Controllers;
 
 namespace Nop.Plugin.Tax.Avalara.Controllers
 {

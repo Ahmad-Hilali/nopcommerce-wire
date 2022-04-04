@@ -4,7 +4,7 @@
   "SystemName": "Tax.Avalara",
   "Version": "2.35",
   "SupportedVersions": [ "4.30" ],
-  "Author": "nopCommerce team",
+  "Author": "b-Wire team",
   "DisplayOrder": 1,
   "FileName": "Nop.Plugin.Tax.Avalara.dll",
   "Description": "This plugin allows using Avalara AvaTax service"

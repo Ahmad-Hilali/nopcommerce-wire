@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
-using Nop.Core;
-using Nop.Data;
+using BWire.Core;
+using BWire.Data;
 using Nop.Plugin.Tax.Avalara.Domain;
 
 namespace Nop.Plugin.Tax.Avalara.Services

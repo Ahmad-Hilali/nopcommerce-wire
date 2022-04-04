@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
 using Nop.Plugin.Pickup.PickupInStore.Models;
-using Nop.Services.Localization;
-using Nop.Web.Framework.Validators;
+using BWire.Services.Localization;
+using BWire.Web.Framework.Validators;
 
 namespace Nop.Plugin.Pickup.PickupInStore.Validators
 {

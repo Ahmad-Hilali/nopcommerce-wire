@@ -1,5 +1,5 @@
-﻿using Nop.Core;
-using Nop.Core.Caching;
+﻿using BWire.Core;
+using BWire.Core.Caching;
 
 namespace Nop.Plugin.Tax.Avalara
 {
@@ -16,10 +16,10 @@ namespace Nop.Plugin.Tax.Avalara
         /// <summary>
         /// Gets the Avalara tax provider connector name
         /// </summary>
-        public static string ApplicationName => "nopCommerce-AvalaraTaxRateProvider|a0o33000004BoPM";
+        public static string ApplicationName => "b-Wire-AvalaraTaxRateProvider|a0o33000004BoPM";
 
         /// <summary>
-        /// Gets the Avalara tax provider version (used a nopCommerce version here)
+        /// Gets the Avalara tax provider version (used a b-Wire version here)
         /// </summary>
         public static string ApplicationVersion => $"v{NopVersion.CurrentVersion}";
 

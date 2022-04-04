@@ -4,7 +4,7 @@
   "SystemName": "Shipping.ShipStation",
   "Version": "1.06",
   "SupportedVersions": [ "4.30" ],
-  "Author": "nopCommerce team",
+  "Author": "b-Wire team",
   "DisplayOrder": 1,
   "FileName": "Nop.Plugin.Shipping.ShipStation.dll",
   "Description": "This plugin offers shipping rates with ShipStation"

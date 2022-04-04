@@ -2,23 +2,23 @@
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nop.Core;
-using Nop.Core.Domain.Common;
-using Nop.Core.Domain.Directory;
+using BWire.Core;
+using BWire.Core.Domain.Common;
+using BWire.Core.Domain.Directory;
 using Nop.Plugin.Tax.Avalara.Domain;
 using Nop.Plugin.Tax.Avalara.Models.Configuration;
 using Nop.Plugin.Tax.Avalara.Services;
-using Nop.Services;
-using Nop.Services.Common;
-using Nop.Services.Configuration;
-using Nop.Services.Directory;
-using Nop.Services.Localization;
-using Nop.Services.Messages;
-using Nop.Services.Security;
-using Nop.Web.Areas.Admin.Factories;
-using Nop.Web.Framework;
-using Nop.Web.Framework.Controllers;
-using Nop.Web.Framework.Mvc.Filters;
+using BWire.Services;
+using BWire.Services.Common;
+using BWire.Services.Configuration;
+using BWire.Services.Directory;
+using BWire.Services.Localization;
+using BWire.Services.Messages;
+using BWire.Services.Security;
+using BWire.Web.Areas.Admin.Factories;
+using BWire.Web.Framework;
+using BWire.Web.Framework.Controllers;
+using BWire.Web.Framework.Mvc.Filters;
 
 namespace Nop.Plugin.Tax.Avalara.Controllers
 {
@@ -102,8 +102,8 @@ namespace Nop.Plugin.Tax.Avalara.Controllers
             _baseAdminModelFactory.PrepareCountries(model.TestAddress.AvailableCountries);
             _baseAdminModelFactory.PrepareStatesAndProvinces(model.TestAddress.AvailableStates, model.TestAddress.CountryId);
 
-            //prepare tax transaction log model
-            model.TaxTransactionLogSearchModel.SetGridPageSize();
+            ////prepare tax transaction log model
+            //model.TaxTransactionLogSearchModel.SetGridPageSize();
 
             //get active account companies
             var activeCompanies = model.IsConfigured ? _avalaraTaxManager.GetAccountCompanies() : null;

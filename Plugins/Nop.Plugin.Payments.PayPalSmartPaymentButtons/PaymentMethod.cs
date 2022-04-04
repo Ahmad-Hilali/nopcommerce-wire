@@ -6,22 +6,22 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.Extensions.Primitives;
-using Nop.Core;
-using Nop.Core.Domain.Cms;
-using Nop.Core.Domain.Orders;
-using Nop.Core.Domain.Payments;
-using Nop.Core.Http.Extensions;
+using BWire.Core;
+using BWire.Core.Domain.Cms;
+using BWire.Core.Domain.Orders;
+using BWire.Core.Domain.Payments;
+using BWire.Core.Http.Extensions;
 using Nop.Plugin.Payments.PayPalSmartPaymentButtons.Domain;
 using Nop.Plugin.Payments.PayPalSmartPaymentButtons.Models;
 using Nop.Plugin.Payments.PayPalSmartPaymentButtons.Services;
-using Nop.Services.Cms;
-using Nop.Services.Common;
-using Nop.Services.Configuration;
-using Nop.Services.Localization;
-using Nop.Services.Payments;
-using Nop.Services.Plugins;
-using Nop.Services.Stores;
-using Nop.Web.Framework.Infrastructure;
+using BWire.Services.Cms;
+using BWire.Services.Common;
+using BWire.Services.Configuration;
+using BWire.Services.Localization;
+using BWire.Services.Payments;
+using BWire.Services.Plugins;
+using BWire.Services.Stores;
+using BWire.Web.Framework.Infrastructure;
 
 namespace Nop.Plugin.Payments.PayPalSmartPaymentButtons
 {

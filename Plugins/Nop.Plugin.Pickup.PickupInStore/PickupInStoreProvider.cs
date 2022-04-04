@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Nop.Core;
-using Nop.Core.Domain.Common;
-using Nop.Core.Domain.Shipping;
+using BWire.Core;
+using BWire.Core.Domain.Common;
+using BWire.Core.Domain.Shipping;
 using Nop.Plugin.Pickup.PickupInStore.Domain;
 using Nop.Plugin.Pickup.PickupInStore.Services;
-using Nop.Services.Common;
-using Nop.Services.Directory;
-using Nop.Services.Localization;
-using Nop.Services.Plugins;
-using Nop.Services.Shipping.Pickup;
-using Nop.Services.Shipping.Tracking;
+using BWire.Services.Common;
+using BWire.Services.Directory;
+using BWire.Services.Localization;
+using BWire.Services.Plugins;
+using BWire.Services.Shipping.Pickup;
+using BWire.Services.Shipping.Tracking;
 
 namespace Nop.Plugin.Pickup.PickupInStore
 {

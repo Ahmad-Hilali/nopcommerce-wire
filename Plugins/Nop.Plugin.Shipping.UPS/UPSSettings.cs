@@ -1,4 +1,4 @@
-﻿using Nop.Core.Configuration;
+﻿using BWire.Core.Configuration;
 using Nop.Plugin.Shipping.UPS.Domain;
 
 namespace Nop.Plugin.Shipping.UPS

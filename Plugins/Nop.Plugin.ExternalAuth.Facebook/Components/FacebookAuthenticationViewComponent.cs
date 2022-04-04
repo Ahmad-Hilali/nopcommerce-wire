@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Nop.Web.Framework.Components;
+using BWire.Web.Framework.Components;
 
 namespace Nop.Plugin.ExternalAuth.Facebook.Components
 {

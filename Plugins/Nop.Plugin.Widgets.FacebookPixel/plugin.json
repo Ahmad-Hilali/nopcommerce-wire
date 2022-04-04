@@ -4,7 +4,7 @@
   "SystemName": "Widgets.FacebookPixel",
   "Version": "1.02",
   "SupportedVersions": [ "4.30" ],
-  "Author": "nopCommerce team",
+  "Author": "b-Wire team",
   "DisplayOrder": 1,
   "FileName": "Nop.Plugin.Widgets.FacebookPixel.dll",
   "Description": "This plugin integrates with Facebook Pixel. It allows you to track visitor activity on your website."

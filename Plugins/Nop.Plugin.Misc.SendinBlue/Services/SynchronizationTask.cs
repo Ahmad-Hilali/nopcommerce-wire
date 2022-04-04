@@ -1,4 +1,4 @@
-﻿using Nop.Services.Tasks;
+﻿using BWire.Services.Tasks;
 
 namespace Nop.Plugin.Misc.SendinBlue.Services
 {

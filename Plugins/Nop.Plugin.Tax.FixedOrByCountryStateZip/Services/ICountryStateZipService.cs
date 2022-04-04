@@ -1,4 +1,4 @@
-using Nop.Core;
+using BWire.Core;
 using Nop.Plugin.Tax.FixedOrByCountryStateZip.Domain;
 
 namespace Nop.Plugin.Tax.FixedOrByCountryStateZip.Services

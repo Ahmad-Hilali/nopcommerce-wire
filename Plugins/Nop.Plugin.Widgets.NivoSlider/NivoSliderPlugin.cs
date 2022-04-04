@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
-using Nop.Core;
-using Nop.Core.Infrastructure;
-using Nop.Services.Cms;
-using Nop.Services.Configuration;
-using Nop.Services.Localization;
-using Nop.Services.Media;
-using Nop.Services.Plugins;
-using Nop.Web.Framework.Infrastructure;
+using BWire.Core;
+using BWire.Core.Infrastructure;
+using BWire.Services.Cms;
+using BWire.Services.Configuration;
+using BWire.Services.Localization;
+using BWire.Services.Media;
+using BWire.Services.Plugins;
+using BWire.Web.Framework.Infrastructure;
 
 namespace Nop.Plugin.Widgets.NivoSlider
 {

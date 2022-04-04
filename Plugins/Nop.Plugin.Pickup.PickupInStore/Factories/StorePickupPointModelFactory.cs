@@ -2,9 +2,9 @@
 using System.Linq;
 using Nop.Plugin.Pickup.PickupInStore.Models;
 using Nop.Plugin.Pickup.PickupInStore.Services;
-using Nop.Services.Localization;
-using Nop.Services.Stores;
-using Nop.Web.Framework.Models.Extensions;
+using BWire.Services.Localization;
+using BWire.Services.Stores;
+using BWire.Web.Framework.Models.Extensions;
 
 namespace Nop.Plugin.Pickup.PickupInStore.Factories
 {

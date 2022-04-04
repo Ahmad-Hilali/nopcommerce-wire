@@ -1,5 +1,5 @@
 ﻿using FluentMigrator;
-using Nop.Data.Migrations;
+using BWire.Data.Migrations;
 using Nop.Plugin.Tax.FixedOrByCountryStateZip.Domain;
 
 namespace Nop.Plugin.Tax.FixedOrByCountryStateZip.Data

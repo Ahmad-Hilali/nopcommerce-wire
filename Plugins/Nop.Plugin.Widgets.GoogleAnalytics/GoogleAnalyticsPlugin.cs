@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
-using Nop.Core;
-using Nop.Services.Cms;
-using Nop.Services.Configuration;
-using Nop.Services.Localization;
-using Nop.Services.Plugins;
-using Nop.Web.Framework.Infrastructure;
+using BWire.Core;
+using BWire.Services.Cms;
+using BWire.Services.Configuration;
+using BWire.Services.Localization;
+using BWire.Services.Plugins;
+using BWire.Web.Framework.Infrastructure;
 
 namespace Nop.Plugin.Widgets.GoogleAnalytics
 {

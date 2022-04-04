@@ -3,7 +3,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Net.Http.Headers;
-using Nop.Core;
+using BWire.Core;
 
 namespace Nop.Plugin.Payments.PayPalStandard.Services
 {
@@ -26,7 +26,7 @@ namespace Nop.Plugin.Payments.PayPalStandard.Services
         {
             //configure client
             client.Timeout = TimeSpan.FromSeconds(20);
-            client.DefaultRequestHeaders.Add(HeaderNames.UserAgent, $"nopCommerce-{NopVersion.CurrentVersion}");
+            client.DefaultRequestHeaders.Add(HeaderNames.UserAgent, $"BWire-{NopVersion.CurrentVersion}");
 
             _httpClient = client;
             _payPalStandardPaymentSettings = payPalStandardPaymentSettings;

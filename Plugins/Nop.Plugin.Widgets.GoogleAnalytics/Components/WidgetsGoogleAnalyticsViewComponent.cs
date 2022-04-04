@@ -3,18 +3,18 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Directory;
-using Nop.Core.Domain.Orders;
-using Nop.Services.Catalog;
-using Nop.Services.Common;
-using Nop.Services.Configuration;
-using Nop.Services.Customers;
-using Nop.Services.Directory;
-using Nop.Services.Logging;
-using Nop.Services.Orders;
-using Nop.Web.Framework.Components;
+using BWire.Core;
+using BWire.Core.Domain.Customers;
+using BWire.Core.Domain.Directory;
+using BWire.Core.Domain.Orders;
+using BWire.Services.Catalog;
+using BWire.Services.Common;
+using BWire.Services.Configuration;
+using BWire.Services.Customers;
+using BWire.Services.Directory;
+using BWire.Services.Logging;
+using BWire.Services.Orders;
+using BWire.Web.Framework.Components;
 
 namespace Nop.Plugin.Widgets.GoogleAnalytics.Components
 {
@@ -215,7 +215,7 @@ namespace Nop.Plugin.Widgets.GoogleAnalytics.Components
             }
             catch (Exception ex)
             {
-                _logger.InsertLog(Core.Domain.Logging.LogLevel.Error, "Error creating scripts for Google eCommerce tracking", ex.ToString());
+                _logger.InsertLog(BWire.Core.Domain.Logging.LogLevel.Error, "Error creating scripts for Google eCommerce tracking", ex.ToString());
             }
             return View("~/Plugins/Widgets.GoogleAnalytics/Views/PublicInfo.cshtml", script);
         }

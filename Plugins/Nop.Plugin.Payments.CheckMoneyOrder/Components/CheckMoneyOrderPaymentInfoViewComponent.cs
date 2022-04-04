@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Nop.Core;
+using BWire.Core;
 using Nop.Plugin.Payments.CheckMoneyOrder.Models;
-using Nop.Services.Localization;
-using Nop.Web.Framework.Components;
+using BWire.Services.Localization;
+using BWire.Web.Framework.Components;
 
 namespace Nop.Plugin.Payments.CheckMoneyOrder.Components
 {

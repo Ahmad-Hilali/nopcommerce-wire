@@ -1,5 +1,5 @@
-﻿using Nop.Core;
-using Nop.Core.Caching;
+﻿using BWire.Core;
+using BWire.Core.Caching;
 
 namespace Nop.Plugin.Misc.SendinBlue
 {
@@ -21,17 +21,17 @@ namespace Nop.Plugin.Misc.SendinBlue
         /// <summary>
         /// Gets a plugin partner name
         /// </summary>
-        public static string PartnerName => "NOPCOMMERCE";
+        public static string PartnerName => "b-Wire";
 
         /// <summary>
         /// Gets a user agent used to request SendinBlue services
         /// </summary>
-        public static string UserAgent => $"nopCommerce-{NopVersion.CurrentVersion}";
+        public static string UserAgent => $"b-Wire-{NopVersion.CurrentVersion}";
 
         /// <summary>
         /// Gets a URL to edit message template on SendinBlue account
         /// </summary>
-        public static string EditMessageTemplateUrl = "https://my.sendinblue.com/camp/template/{0}/message-setup?utm_source=nopcommerce_plugin&utm_medium=plugin&utm_campaign=module_link";
+        public static string EditMessageTemplateUrl = "https://my.sendinblue.com/camp/template/{0}/message-setup?utm_source=b-Wire_plugin&utm_medium=plugin&utm_campaign=module_link";
 
         /// <summary>
         /// Gets a name of the route to the import contacts callback
@@ -231,32 +231,32 @@ namespace Nop.Plugin.Misc.SendinBlue
         /// <summary>
         /// Gets a name of attribute to store an order total sum
         /// </summary>
-        public static string OrderTotalSumServiceAttribute => "NOPCOMMERCE_CA_USER";
+        public static string OrderTotalSumServiceAttribute => "b-Wire_CA_USER";
 
         /// <summary>
         /// Gets a name of attribute to store an order total sum of month
         /// </summary>
-        public static string OrderTotalMonthSumServiceAttribute => "NOPCOMMERCE_LAST_30_DAYS_CA";
+        public static string OrderTotalMonthSumServiceAttribute => "b-Wire_LAST_30_DAYS_CA";
 
         /// <summary>
         /// Gets a name of attribute to store an order count
         /// </summary>
-        public static string OrderCountServiceAttribute => "NOPCOMMERCE_ORDER_TOTAL";
+        public static string OrderCountServiceAttribute => "b-Wire_ORDER_TOTAL";
 
         /// <summary>
         /// Gets a name of attribute to store all orders total sum
         /// </summary>
-        public static string AllOrderTotalSumServiceAttribute => "NOPCOMMERCE_CA_TOTAL";
+        public static string AllOrderTotalSumServiceAttribute => "b-Wire_CA_TOTAL";
 
         /// <summary>
         /// Gets a name of attribute to store all orders total sum of month
         /// </summary>
-        public static string AllOrderTotalMonthSumServiceAttribute => "NOPCOMMERCE_CA_LAST_30DAYS";
+        public static string AllOrderTotalMonthSumServiceAttribute => "b-Wire_CA_LAST_30DAYS";
 
         /// <summary>
         /// Gets a name of attribute to store all orders count
         /// </summary>
-        public static string AllOrderCountServiceAttribute => "NOPCOMMERCE_ORDERS_COUNT";
+        public static string AllOrderCountServiceAttribute => "b-Wire_ORDERS_COUNT";
 
         /// <summary>
         /// Gets a key of the attribute to store shopping cart identifier

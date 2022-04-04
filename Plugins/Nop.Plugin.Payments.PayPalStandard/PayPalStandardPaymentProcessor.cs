@@ -5,22 +5,22 @@ using System.Linq;
 using System.Net;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.WebUtilities;
-using Nop.Core;
-using Nop.Core.Domain.Common;
-using Nop.Core.Domain.Directory;
-using Nop.Core.Domain.Orders;
-using Nop.Core.Domain.Shipping;
+using BWire.Core;
+using BWire.Core.Domain.Common;
+using BWire.Core.Domain.Directory;
+using BWire.Core.Domain.Orders;
+using BWire.Core.Domain.Shipping;
 using Nop.Plugin.Payments.PayPalStandard.Services;
-using Nop.Services.Catalog;
-using Nop.Services.Common;
-using Nop.Services.Configuration;
-using Nop.Services.Customers;
-using Nop.Services.Directory;
-using Nop.Services.Localization;
-using Nop.Services.Orders;
-using Nop.Services.Payments;
-using Nop.Services.Plugins;
-using Nop.Services.Tax;
+using BWire.Services.Catalog;
+using BWire.Services.Common;
+using BWire.Services.Configuration;
+using BWire.Services.Customers;
+using BWire.Services.Directory;
+using BWire.Services.Localization;
+using BWire.Services.Orders;
+using BWire.Services.Payments;
+using BWire.Services.Plugins;
+using BWire.Services.Tax;
 
 namespace Nop.Plugin.Payments.PayPalStandard
 {
@@ -178,7 +178,7 @@ namespace Nop.Plugin.Payments.PayPalStandard
                 //set return method to "2" (the customer redirected to the return URL by using the POST method, and all payment variables are included)
                 ["rm"] = "2",
 
-                ["bn"] = PayPalHelper.NopCommercePartnerCode,
+                ["bn"] = PayPalHelper.BWirePartnerCode,
                 ["currency_code"] = _currencyService.GetCurrencyById(_currencySettings.PrimaryStoreCurrencyId)?.CurrencyCode,
 
                 //order identifier
@@ -306,7 +306,7 @@ namespace Nop.Plugin.Payments.PayPalStandard
                 var discountTotal = Math.Round(cartTotal - postProcessPaymentRequest.Order.OrderTotal, 2);
                 roundedCartTotal -= discountTotal;
 
-                //gift card or rewarded point amount applied to cart in nopCommerce - shows in PayPal as "discount"
+                //gift card or rewarded point amount applied to cart in BWire - shows in PayPal as "discount"
                 parameters.Add("discount_amount_cart", discountTotal.ToString("0.00", CultureInfo.InvariantCulture));
             }
 

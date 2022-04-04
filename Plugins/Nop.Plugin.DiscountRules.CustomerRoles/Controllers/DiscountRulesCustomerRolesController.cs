@@ -4,16 +4,16 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nop.Core.Domain.Discounts;
+using BWire.Core.Domain.Discounts;
 using Nop.Plugin.DiscountRules.CustomerRoles.Models;
-using Nop.Services.Configuration;
-using Nop.Services.Customers;
-using Nop.Services.Discounts;
-using Nop.Services.Localization;
-using Nop.Services.Security;
-using Nop.Web.Framework;
-using Nop.Web.Framework.Controllers;
-using Nop.Web.Framework.Mvc.Filters;
+using BWire.Services.Configuration;
+using BWire.Services.Customers;
+using BWire.Services.Discounts;
+using BWire.Services.Localization;
+using BWire.Services.Security;
+using BWire.Web.Framework;
+using BWire.Web.Framework.Controllers;
+using BWire.Web.Framework.Mvc.Filters;
 
 namespace Nop.Plugin.DiscountRules.CustomerRoles.Controllers
 {

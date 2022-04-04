@@ -4,16 +4,16 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Nop.Plugin.Tax.FixedOrByCountryStateZip.Domain;
 using Nop.Plugin.Tax.FixedOrByCountryStateZip.Models;
 using Nop.Plugin.Tax.FixedOrByCountryStateZip.Services;
-using Nop.Services.Configuration;
-using Nop.Services.Directory;
-using Nop.Services.Security;
-using Nop.Services.Stores;
-using Nop.Services.Tax;
-using Nop.Web.Framework;
-using Nop.Web.Framework.Controllers;
-using Nop.Web.Framework.Models.Extensions;
-using Nop.Web.Framework.Mvc;
-using Nop.Web.Framework.Mvc.Filters;
+using BWire.Services.Configuration;
+using BWire.Services.Directory;
+using BWire.Services.Security;
+using BWire.Services.Stores;
+using BWire.Services.Tax;
+using BWire.Web.Framework;
+using BWire.Web.Framework.Controllers;
+using BWire.Web.Framework.Models.Extensions;
+using BWire.Web.Framework.Mvc;
+using BWire.Web.Framework.Mvc.Filters;
 
 namespace Nop.Plugin.Tax.FixedOrByCountryStateZip.Controllers
 {

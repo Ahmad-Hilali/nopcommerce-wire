@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using Nop.Core;
-using Nop.Services.Authentication.External;
-using Nop.Services.Configuration;
-using Nop.Services.Localization;
-using Nop.Services.Plugins;
+using BWire.Core;
+using BWire.Services.Authentication.External;
+using BWire.Services.Configuration;
+using BWire.Services.Localization;
+using BWire.Services.Plugins;
 
 namespace Nop.Plugin.ExternalAuth.Facebook
 {

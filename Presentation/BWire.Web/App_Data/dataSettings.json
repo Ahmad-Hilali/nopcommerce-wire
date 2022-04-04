@@ -1,0 +1,5 @@
+﻿{
+  "DataConnectionString": "Data Source=SQL5086.site4now.net;Initial Catalog=db_a83595_babilon;User Id=db_a83595_babilon_admin;Password=Bw@123456",
+  "DataProvider": "sqlserver",
+  "RawDataSettings": {}
+}

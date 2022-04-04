@@ -1,4 +1,4 @@
-﻿using Nop.Core.Caching;
+﻿using BWire.Core.Caching;
 
 namespace Nop.Plugin.Widgets.FacebookPixel
 {
@@ -13,9 +13,9 @@ namespace Nop.Plugin.Widgets.FacebookPixel
         public static string SystemName => "Widgets.FacebookPixel";
 
         /// <summary>
-        /// Gets the nopCommerce agent ID
+        /// Gets the b-Wire agent ID
         /// </summary>
-        public static string AgentId => "plnopcommerce";
+        public static string AgentId => "plb-Wire";
 
         /// <summary>
         /// Gets the configuration route name

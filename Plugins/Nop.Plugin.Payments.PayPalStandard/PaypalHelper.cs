@@ -1,4 +1,4 @@
-﻿using Nop.Core.Domain.Payments;
+﻿using BWire.Core.Domain.Payments;
 
 namespace Nop.Plugin.Payments.PayPalStandard
 {
@@ -10,9 +10,9 @@ namespace Nop.Plugin.Payments.PayPalStandard
         #region Properties
 
         /// <summary>
-        /// Get nopCommerce partner code
+        /// Get BWire partner code
         /// </summary>
-        public static string NopCommercePartnerCode => "nopCommerce_SP";
+        public static string BWirePartnerCode => "BWire_SP";
 
         /// <summary>
         /// Get the generic attribute name that is used to store an order total that actually sent to PayPal (used to PDT order total validation)

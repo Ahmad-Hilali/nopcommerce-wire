@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nop.Web.Framework.Models;
+using BWire.Web.Framework.Models;
 
 namespace Nop.Plugin.Tax.Avalara.Models.Tax
 {

@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Html;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ViewComponents;
-using Nop.Core;
-using Nop.Services.Payments;
-using Nop.Web.Framework.Components;
-using Nop.Web.Framework.Infrastructure;
+using BWire.Core;
+using BWire.Services.Payments;
+using BWire.Web.Framework.Components;
+using BWire.Web.Framework.Infrastructure;
 
 namespace Nop.Plugin.Payments.PayPalSmartPaymentButtons.Components
 {

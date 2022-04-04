@@ -1,4 +1,4 @@
-﻿using Nop.Core.Configuration;
+﻿using BWire.Core.Configuration;
 using Nop.Plugin.Payments.PayPalSmartPaymentButtons.Domain;
 
 namespace Nop.Plugin.Payments.PayPalSmartPaymentButtons

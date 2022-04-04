@@ -3,7 +3,7 @@
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Nop.Core;
+using BWire.Core;
 
 namespace Nop.Plugin.Widgets.GoogleAnalytics.Api
 {

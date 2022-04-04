@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Nop.Core;
+using BWire.Core;
 
 namespace Nop.Plugin.Payments.PayPalSmartPaymentButtons
 {
@@ -16,10 +16,10 @@ namespace Nop.Plugin.Payments.PayPalSmartPaymentButtons
         /// <summary>
         /// Gets the user agent used to request third-party services
         /// </summary>
-        public static string UserAgent => $"nopCommerce-{NopVersion.CurrentVersion}";
+        public static string UserAgent => $"b-Wire-{NopVersion.CurrentVersion}";
 
         /// <summary>
-        /// Gets the nopCommerce partner code
+        /// Gets the b-Wire partner code
         /// </summary>
         public static string PartnerCode => "NOP_Cart_SPB";
 

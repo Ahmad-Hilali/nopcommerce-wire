@@ -4,25 +4,26 @@ using System.Globalization;
 using System.Linq;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
-using Nop.Core;
-using Nop.Core.Caching;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Directory;
-using Nop.Core.Domain.Orders;
-using Nop.Core.Http.Extensions;
-using Nop.Data;
+using BWire.Core;
+using BWire.Core.Caching;
+using BWire.Core.Domain.Customers;
+using BWire.Core.Domain.Directory;
+using BWire.Core.Domain.Orders;
+using BWire.Core.Http.Extensions;
+using BWire.Data;
 using Nop.Plugin.Widgets.FacebookPixel.Domain;
-using Nop.Services.Caching;
-using Nop.Services.Caching.Extensions;
-using Nop.Services.Catalog;
-using Nop.Services.Cms;
-using Nop.Services.Common;
-using Nop.Services.Directory;
-using Nop.Services.Logging;
-using Nop.Services.Orders;
-using Nop.Services.Tax;
-using Nop.Web.Infrastructure.Cache;
-using Nop.Web.Models.Catalog;
+using BWire.Services.Caching;
+using BWire.Services.Caching.Extensions;
+using BWire.Services.Catalog;
+using BWire.Services.Cms;
+using BWire.Services.Common;
+using BWire.Services.Directory;
+using BWire.Services.Logging;
+using BWire.Services.Orders;
+using BWire.Services.Tax;
+using BWire.Web.Infrastructure.Cache;
+using BWire.Web.Models.Catalog;
+using BWire.Web.Areas.Admin.Infrastructure.Cache;
 
 namespace Nop.Plugin.Widgets.FacebookPixel.Services
 {
@@ -882,7 +883,7 @@ namespace Nop.Plugin.Widgets.FacebookPixel.Services
             configuration.CustomEvents = JsonConvert.SerializeObject(customEvents);
             UpdateConfiguration(configuration);
             _staticCacheManager.RemoveByPrefix(FacebookPixelDefaults.PrefixCacheKey);
-            _staticCacheManager.RemoveByPrefix(NopModelCacheDefaults.WidgetPrefixCacheKey);
+            _staticCacheManager.RemoveByPrefix(BWire.Web.Infrastructure.Cache.NopModelCacheDefaults.WidgetPrefixCacheKey);
         }
 
         /// <summary>

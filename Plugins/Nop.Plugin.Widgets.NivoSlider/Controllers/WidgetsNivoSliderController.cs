@@ -1,14 +1,14 @@
 ﻿using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core;
+using BWire.Core;
 using Nop.Plugin.Widgets.NivoSlider.Models;
-using Nop.Services.Configuration;
-using Nop.Services.Localization;
-using Nop.Services.Media;
-using Nop.Services.Messages;
-using Nop.Services.Security;
-using Nop.Web.Framework;
-using Nop.Web.Framework.Controllers;
+using BWire.Services.Configuration;
+using BWire.Services.Localization;
+using BWire.Services.Media;
+using BWire.Services.Messages;
+using BWire.Services.Security;
+using BWire.Web.Framework;
+using BWire.Web.Framework.Controllers;
 
 namespace Nop.Plugin.Widgets.NivoSlider.Controllers
 {

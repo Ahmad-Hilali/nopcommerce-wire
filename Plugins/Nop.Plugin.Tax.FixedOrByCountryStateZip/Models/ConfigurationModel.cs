@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nop.Web.Framework.Mvc.ModelBinding;
-using Nop.Web.Framework.Models;
+using BWire.Web.Framework.Mvc.ModelBinding;
+using BWire.Web.Framework.Models;
 
 namespace Nop.Plugin.Tax.FixedOrByCountryStateZip.Models
 {

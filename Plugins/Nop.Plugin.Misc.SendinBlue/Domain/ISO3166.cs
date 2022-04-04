@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Nop.Core;
+using BWire.Core;
 
 namespace Nop.Plugin.Misc.SendinBlue.Domain
 {

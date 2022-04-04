@@ -5,16 +5,16 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Facebook;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
-using Nop.Core;
+using BWire.Core;
 using Nop.Plugin.ExternalAuth.Facebook.Models;
-using Nop.Services.Authentication.External;
-using Nop.Services.Configuration;
-using Nop.Services.Localization;
-using Nop.Services.Messages;
-using Nop.Services.Security;
-using Nop.Web.Framework;
-using Nop.Web.Framework.Controllers;
-using Nop.Web.Framework.Mvc.Filters;
+using BWire.Services.Authentication.External;
+using BWire.Services.Configuration;
+using BWire.Services.Localization;
+using BWire.Services.Messages;
+using BWire.Services.Security;
+using BWire.Web.Framework;
+using BWire.Web.Framework.Controllers;
+using BWire.Web.Framework.Mvc.Filters;
 
 namespace Nop.Plugin.ExternalAuth.Facebook.Controllers
 {

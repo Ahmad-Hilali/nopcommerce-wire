@@ -1,5 +1,5 @@
 ﻿using FluentMigrator;
-using Nop.Data.Migrations;
+using BWire.Data.Migrations;
 using Nop.Plugin.Widgets.FacebookPixel.Domain;
 
 namespace Nop.Plugin.Widgets.FacebookPixel.Data

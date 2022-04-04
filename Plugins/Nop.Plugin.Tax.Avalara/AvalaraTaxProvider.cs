@@ -4,16 +4,16 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.Routing;
-using Nop.Core.Domain.Cms;
-using Nop.Core.Domain.Tax;
+using BWire.Core.Domain.Cms;
+using BWire.Core.Domain.Tax;
 using Nop.Plugin.Tax.Avalara.Domain;
 using Nop.Plugin.Tax.Avalara.Services;
-using Nop.Services.Cms;
-using Nop.Services.Configuration;
-using Nop.Services.Localization;
-using Nop.Services.Plugins;
-using Nop.Services.Tax;
-using Nop.Web.Framework.Infrastructure;
+using BWire.Services.Cms;
+using BWire.Services.Configuration;
+using BWire.Services.Localization;
+using BWire.Services.Plugins;
+using BWire.Services.Tax;
+using BWire.Web.Framework.Infrastructure;
 
 namespace Nop.Plugin.Tax.Avalara
 {

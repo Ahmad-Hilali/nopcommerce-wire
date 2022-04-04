@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core;
-using Nop.Core.Domain.Common;
-using Nop.Core.Domain.Directory;
-using Nop.Core.Domain.Tax;
+using BWire.Core;
+using BWire.Core.Domain.Common;
+using BWire.Core.Domain.Directory;
+using BWire.Core.Domain.Tax;
 using Nop.Plugin.Tax.Avalara.Models.Checkout;
 using Nop.Plugin.Tax.Avalara.Services;
-using Nop.Services.Common;
-using Nop.Services.Customers;
-using Nop.Services.Directory;
-using Nop.Services.Localization;
-using Nop.Services.Tax;
-using Nop.Web.Framework.Components;
-using Nop.Web.Framework.Infrastructure;
+using BWire.Services.Common;
+using BWire.Services.Customers;
+using BWire.Services.Directory;
+using BWire.Services.Localization;
+using BWire.Services.Tax;
+using BWire.Web.Framework.Components;
+using BWire.Web.Framework.Infrastructure;
 
 namespace Nop.Plugin.Tax.Avalara.Components
 {

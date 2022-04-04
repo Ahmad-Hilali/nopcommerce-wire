@@ -1,20 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Nop.Core;
-using Nop.Core.Domain.Common;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Messages;
-using Nop.Services.Affiliates;
-using Nop.Services.Catalog;
-using Nop.Services.Common;
-using Nop.Services.Configuration;
-using Nop.Services.Customers;
-using Nop.Services.Events;
-using Nop.Services.Localization;
-using Nop.Services.Messages;
-using Nop.Services.Orders;
-using Nop.Services.Stores;
+using BWire.Core;
+using BWire.Core.Domain.Common;
+using BWire.Core.Domain.Customers;
+using BWire.Core.Domain.Messages;
+using BWire.Services.Affiliates;
+using BWire.Services.Catalog;
+using BWire.Services.Common;
+using BWire.Services.Configuration;
+using BWire.Services.Customers;
+using BWire.Services.Events;
+using BWire.Services.Localization;
+using BWire.Services.Messages;
+using BWire.Services.Orders;
+using BWire.Services.Stores;
 
 namespace Nop.Plugin.Misc.SendinBlue.Services
 {

@@ -1,4 +1,4 @@
-using Nop.Core;
+using BWire.Core;
 using Nop.Plugin.Pickup.PickupInStore.Domain;
 
 namespace Nop.Plugin.Pickup.PickupInStore.Services

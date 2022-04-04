@@ -3,21 +3,21 @@ using System.Linq;
 using System.Text;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nop.Core.Domain.Directory;
+using BWire.Core.Domain.Directory;
 using Nop.Plugin.Shipping.FixedByWeightByTotal.Domain;
 using Nop.Plugin.Shipping.FixedByWeightByTotal.Models;
 using Nop.Plugin.Shipping.FixedByWeightByTotal.Services;
-using Nop.Services.Configuration;
-using Nop.Services.Directory;
-using Nop.Services.Localization;
-using Nop.Services.Security;
-using Nop.Services.Shipping;
-using Nop.Services.Stores;
-using Nop.Web.Framework;
-using Nop.Web.Framework.Controllers;
-using Nop.Web.Framework.Models.Extensions;
-using Nop.Web.Framework.Mvc;
-using Nop.Web.Framework.Mvc.Filters;
+using BWire.Services.Configuration;
+using BWire.Services.Directory;
+using BWire.Services.Localization;
+using BWire.Services.Security;
+using BWire.Services.Shipping;
+using BWire.Services.Stores;
+using BWire.Web.Framework;
+using BWire.Web.Framework.Controllers;
+using BWire.Web.Framework.Models.Extensions;
+using BWire.Web.Framework.Mvc;
+using BWire.Web.Framework.Mvc.Filters;
 
 namespace Nop.Plugin.Shipping.FixedByWeightByTotal.Controllers
 {

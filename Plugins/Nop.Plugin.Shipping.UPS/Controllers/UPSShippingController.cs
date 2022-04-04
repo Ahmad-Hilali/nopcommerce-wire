@@ -6,15 +6,15 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Nop.Plugin.Shipping.UPS.Domain;
 using Nop.Plugin.Shipping.UPS.Models;
 using Nop.Plugin.Shipping.UPS.Services;
-using Nop.Services;
-using Nop.Services.Configuration;
-using Nop.Services.Directory;
-using Nop.Services.Localization;
-using Nop.Services.Messages;
-using Nop.Services.Security;
-using Nop.Web.Framework;
-using Nop.Web.Framework.Controllers;
-using Nop.Web.Framework.Mvc.Filters;
+using BWire.Services;
+using BWire.Services.Configuration;
+using BWire.Services.Directory;
+using BWire.Services.Localization;
+using BWire.Services.Messages;
+using BWire.Services.Security;
+using BWire.Web.Framework;
+using BWire.Web.Framework.Controllers;
+using BWire.Web.Framework.Mvc.Filters;
 
 namespace Nop.Plugin.Shipping.UPS.Controllers
 {

@@ -1,5 +1,5 @@
 ﻿using FluentMigrator.Builders.Create.Table;
-using Nop.Data.Mapping.Builders;
+using BWire.Data.Mapping.Builders;
 using Nop.Plugin.Shipping.FixedByWeightByTotal.Domain;
 
 namespace Nop.Plugin.Shipping.FixedByWeightByTotal.Data

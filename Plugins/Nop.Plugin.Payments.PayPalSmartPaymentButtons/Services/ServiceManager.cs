@@ -6,17 +6,17 @@ using System.Linq;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Net.Http.Headers;
 using Newtonsoft.Json;
-using Nop.Core;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Directory;
+using BWire.Core;
+using BWire.Core.Domain.Customers;
+using BWire.Core.Domain.Directory;
 using Nop.Plugin.Payments.PayPalSmartPaymentButtons.Domain;
-using Nop.Services.Catalog;
-using Nop.Services.Common;
-using Nop.Services.Directory;
-using Nop.Services.Logging;
-using Nop.Services.Orders;
-using Nop.Services.Shipping;
-using Nop.Services.Tax;
+using BWire.Services.Catalog;
+using BWire.Services.Common;
+using BWire.Services.Directory;
+using BWire.Services.Logging;
+using BWire.Services.Orders;
+using BWire.Services.Shipping;
+using BWire.Services.Tax;
 using PayPal.v1.Webhooks;
 using PayPalCheckoutSdk.Core;
 using PayPalCheckoutSdk.Orders;
@@ -315,7 +315,7 @@ namespace Nop.Plugin.Payments.PayPalSmartPaymentButtons.Services
 
                 //prepare purchase unit details
                 var shoppingCart = _shoppingCartService
-                    .GetShoppingCart(_workContext.CurrentCustomer, Core.Domain.Orders.ShoppingCartType.ShoppingCart, _storeContext.CurrentStore.Id)
+                    .GetShoppingCart(_workContext.CurrentCustomer, BWire.Core.Domain.Orders.ShoppingCartType.ShoppingCart, _storeContext.CurrentStore.Id)
                     .ToList();
                 var taxTotal = Math.Round(_orderTotalCalculationService.GetTaxTotal(shoppingCart, false), 2);
                 var shippingTotal = Math.Round(_orderTotalCalculationService.GetShoppingCartShippingTotal(shoppingCart) ?? decimal.Zero, 2);
@@ -620,7 +620,7 @@ namespace Nop.Plugin.Payments.PayPalSmartPaymentButtons.Services
                 if (order == null)
                     return false;
 
-                _orderService.InsertOrderNote(new Core.Domain.Orders.OrderNote()
+                _orderService.InsertOrderNote(new BWire.Core.Domain.Orders.OrderNote()
                 {
                     OrderId = order.Id,
                     Note = $"Webhook details: {System.Environment.NewLine}{rawRequestString}",
@@ -650,7 +650,7 @@ namespace Nop.Plugin.Payments.PayPalSmartPaymentButtons.Services
                     case "expired":
                     case "pending":
                         order.CaptureTransactionResult = authorization.Status;
-                        order.OrderStatus = Core.Domain.Orders.OrderStatus.Pending;
+                        order.OrderStatus = BWire.Core.Domain.Orders.OrderStatus.Pending;
                         _orderService.UpdateOrder(order);
                         _orderProcessingService.CheckOrderStatus(order);
                         break;
@@ -686,7 +686,7 @@ namespace Nop.Plugin.Payments.PayPalSmartPaymentButtons.Services
                     case "pending":
                     case "declined":
                         order.CaptureTransactionResult = $"{capture.Status}. {capture.StatusDetails?.Reason}";
-                        order.OrderStatus = Core.Domain.Orders.OrderStatus.Pending;
+                        order.OrderStatus = BWire.Core.Domain.Orders.OrderStatus.Pending;
                         _orderService.UpdateOrder(order);
                         _orderProcessingService.CheckOrderStatus(order);
                         break;

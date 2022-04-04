@@ -1,5 +1,5 @@
 ﻿using System;
-using Nop.Core;
+using BWire.Core;
 
 namespace Nop.Plugin.Tax.Avalara.Domain
 {

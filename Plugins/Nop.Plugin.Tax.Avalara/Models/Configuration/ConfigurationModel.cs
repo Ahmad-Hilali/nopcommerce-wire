@@ -1,9 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nop.Plugin.Tax.Avalara.Models.Log;
-using Nop.Web.Areas.Admin.Models.Common;
-using Nop.Web.Framework.Mvc.ModelBinding;
+using BWire.Web.Areas.Admin.Models.Common;
+using BWire.Web.Framework.Mvc.ModelBinding;
 
 namespace Nop.Plugin.Tax.Avalara.Models.Configuration
 {
@@ -19,7 +18,6 @@ namespace Nop.Plugin.Tax.Avalara.Models.Configuration
             TestAddress = new AddressModel();
             Companies = new List<SelectListItem>();
             TaxOriginAddressTypes = new List<SelectListItem>();
-            TaxTransactionLogSearchModel = new TaxTransactionLogSearchModel();
         }
 
         #endregion
@@ -60,7 +58,6 @@ namespace Nop.Plugin.Tax.Avalara.Models.Configuration
 
         public string TestTaxResult { get; set; }
 
-        public TaxTransactionLogSearchModel TaxTransactionLogSearchModel { get; set; }
 
         public bool HideGeneralBlock { get; set; }
 

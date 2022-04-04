@@ -7,21 +7,21 @@ using System.Net;
 using System.Text;
 using System.Xml;
 using Newtonsoft.Json;
-using Nop.Core;
-using Nop.Core.Caching;
-using Nop.Core.Domain.Common;
-using Nop.Core.Domain.Directory;
-using Nop.Core.Domain.Orders;
-using Nop.Core.Domain.Shipping;
-using Nop.Core.Domain.Tax;
-using Nop.Services.Caching;
-using Nop.Services.Catalog;
-using Nop.Services.Common;
-using Nop.Services.Customers;
-using Nop.Services.Directory;
-using Nop.Services.Logging;
-using Nop.Services.Orders;
-using Nop.Services.Shipping;
+using BWire.Core;
+using BWire.Core.Caching;
+using BWire.Core.Domain.Common;
+using BWire.Core.Domain.Directory;
+using BWire.Core.Domain.Orders;
+using BWire.Core.Domain.Shipping;
+using BWire.Core.Domain.Tax;
+using BWire.Services.Caching;
+using BWire.Services.Catalog;
+using BWire.Services.Common;
+using BWire.Services.Customers;
+using BWire.Services.Directory;
+using BWire.Services.Logging;
+using BWire.Services.Orders;
+using BWire.Services.Shipping;
 using Formatting = System.Xml.Formatting;
 
 namespace Nop.Plugin.Shipping.ShipStation.Services
@@ -349,7 +349,7 @@ namespace Nop.Plugin.Shipping.ShipStation.Services
             writer.Flush();
         }
 
-        protected virtual void WriteCustomerToXml(XmlTextWriter writer, Order order, Core.Domain.Customers.Customer customer)
+        protected virtual void WriteCustomerToXml(XmlTextWriter writer, Order order, BWire.Core.Domain.Customers.Customer customer)
         {
             writer.WriteStartElement("Customer");
 

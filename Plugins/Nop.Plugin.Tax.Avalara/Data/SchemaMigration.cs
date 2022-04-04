@@ -1,5 +1,5 @@
 ﻿using FluentMigrator;
-using Nop.Data.Migrations;
+using BWire.Data.Migrations;
 using Nop.Plugin.Tax.Avalara.Domain;
 
 namespace Nop.Plugin.Tax.Avalara.Data

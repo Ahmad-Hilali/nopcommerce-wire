@@ -2,8 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ViewComponents;
 using Nop.Plugin.Widgets.FacebookPixel.Services;
-using Nop.Web.Framework.Components;
-using Nop.Web.Framework.Infrastructure;
+using BWire.Web.Framework.Components;
+using BWire.Web.Framework.Infrastructure;
 
 namespace Nop.Plugin.Widgets.FacebookPixel.Components
 {

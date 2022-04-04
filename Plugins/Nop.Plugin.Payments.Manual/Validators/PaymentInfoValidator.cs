@@ -1,8 +1,8 @@
 ﻿using System;
 using FluentValidation;
 using Nop.Plugin.Payments.Manual.Models;
-using Nop.Services.Localization;
-using Nop.Web.Framework.Validators;
+using BWire.Services.Localization;
+using BWire.Web.Framework.Validators;
 
 namespace Nop.Plugin.Payments.Manual.Validators
 {

@@ -1,7 +1,7 @@
-﻿using Nop.Core.Domain.Shipping;
-using Nop.Core.Events;
-using Nop.Services.Configuration;
-using Nop.Services.Events;
+﻿using BWire.Core.Domain.Shipping;
+using BWire.Core.Events;
+using BWire.Services.Configuration;
+using BWire.Services.Events;
 
 namespace Nop.Plugin.Shipping.FixedByWeightByTotal.Infrastructure.Cache
 {

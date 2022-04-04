@@ -4,12 +4,12 @@ using System.Globalization;
 using System.Linq;
 using System.Net.Http;
 using System.Xml;
-using Nop.Core;
-using Nop.Core.Http;
-using Nop.Services.Directory;
-using Nop.Services.Localization;
-using Nop.Services.Logging;
-using Nop.Services.Plugins;
+using BWire.Core;
+using BWire.Core.Http;
+using BWire.Services.Directory;
+using BWire.Services.Localization;
+using BWire.Services.Logging;
+using BWire.Services.Plugins;
 
 namespace Nop.Plugin.ExchangeRate.EcbExchange
 {
@@ -43,15 +43,15 @@ namespace Nop.Plugin.ExchangeRate.EcbExchange
         /// </summary>
         /// <param name="exchangeRateCurrencyCode">Exchange rate currency code</param>
         /// <returns>Exchange rates</returns>
-        public IList<Core.Domain.Directory.ExchangeRate> GetCurrencyLiveRates(string exchangeRateCurrencyCode)
+        public IList<BWire.Core.Domain.Directory.ExchangeRate> GetCurrencyLiveRates(string exchangeRateCurrencyCode)
         {
             if (exchangeRateCurrencyCode == null)
                 throw new ArgumentNullException(nameof(exchangeRateCurrencyCode));
 
             //add euro with rate 1
-            var ratesToEuro = new List<Core.Domain.Directory.ExchangeRate>
+            var ratesToEuro = new List<BWire.Core.Domain.Directory.ExchangeRate>
             {
-                new Core.Domain.Directory.ExchangeRate
+                new BWire.Core.Domain.Directory.ExchangeRate
                 {
                     CurrencyCode = "EUR",
                     Rate = 1,
@@ -85,7 +85,7 @@ namespace Nop.Plugin.ExchangeRate.EcbExchange
                     if (!decimal.TryParse(currency.Attributes["rate"].Value, out var currencyRate))
                         continue;
 
-                    ratesToEuro.Add(new Core.Domain.Directory.ExchangeRate()
+                    ratesToEuro.Add(new BWire.Core.Domain.Directory.ExchangeRate()
                     {
                         CurrencyCode = currency.Attributes["currency"].Value,
                         Rate = currencyRate,
@@ -108,7 +108,7 @@ namespace Nop.Plugin.ExchangeRate.EcbExchange
                 throw new NopException(_localizationService.GetResource("Plugins.ExchangeRate.EcbExchange.Error"));
 
             //return result for the selected (not euro) currency
-            return ratesToEuro.Select(rate => new Core.Domain.Directory.ExchangeRate
+            return ratesToEuro.Select(rate => new BWire.Core.Domain.Directory.ExchangeRate
             {
                 CurrencyCode = rate.CurrencyCode,
                 Rate = Math.Round(rate.Rate / exchangeRateCurrency.Rate, 4),

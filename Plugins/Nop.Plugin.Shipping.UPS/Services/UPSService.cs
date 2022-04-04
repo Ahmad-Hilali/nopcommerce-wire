@@ -7,20 +7,20 @@ using System.ServiceModel;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Serialization;
-using Nop.Core;
-using Nop.Core.Domain.Catalog;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Directory;
-using Nop.Core.Domain.Orders;
-using Nop.Core.Domain.Shipping;
+using BWire.Core;
+using BWire.Core.Domain.Catalog;
+using BWire.Core.Domain.Customers;
+using BWire.Core.Domain.Directory;
+using BWire.Core.Domain.Orders;
+using BWire.Core.Domain.Shipping;
 using Nop.Plugin.Shipping.UPS.Domain;
-using Nop.Services;
-using Nop.Services.Directory;
-using Nop.Services.Localization;
-using Nop.Services.Logging;
-using Nop.Services.Orders;
-using Nop.Services.Shipping;
-using Nop.Services.Shipping.Tracking;
+using BWire.Services;
+using BWire.Services.Directory;
+using BWire.Services.Localization;
+using BWire.Services.Logging;
+using BWire.Services.Orders;
+using BWire.Services.Shipping;
+using BWire.Services.Shipping.Tracking;
 
 namespace Nop.Plugin.Shipping.UPS.Services
 {

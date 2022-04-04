@@ -1,10 +1,10 @@
 ﻿using System.Linq;
 using System.Security.Claims;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Events;
-using Nop.Services.Authentication.External;
-using Nop.Services.Common;
-using Nop.Services.Events;
+using BWire.Core.Domain.Customers;
+using BWire.Core.Events;
+using BWire.Services.Authentication.External;
+using BWire.Services.Common;
+using BWire.Services.Events;
 
 namespace Nop.Plugin.ExternalAuth.Facebook.Infrastructure
 {

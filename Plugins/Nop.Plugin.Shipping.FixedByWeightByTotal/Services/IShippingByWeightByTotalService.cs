@@ -1,4 +1,4 @@
-using Nop.Core;
+using BWire.Core;
 using Nop.Plugin.Shipping.FixedByWeightByTotal.Domain;
 
 namespace Nop.Plugin.Shipping.FixedByWeightByTotal.Services

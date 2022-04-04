@@ -3,21 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Nop.Core.Domain.Common;
-using Nop.Core.Domain.Directory;
+using BWire.Core.Domain.Common;
+using BWire.Core.Domain.Directory;
 using Nop.Plugin.Pickup.PickupInStore.Domain;
 using Nop.Plugin.Pickup.PickupInStore.Factories;
 using Nop.Plugin.Pickup.PickupInStore.Models;
 using Nop.Plugin.Pickup.PickupInStore.Services;
-using Nop.Services.Common;
-using Nop.Services.Directory;
-using Nop.Services.Localization;
-using Nop.Services.Security;
-using Nop.Services.Stores;
-using Nop.Web.Framework;
-using Nop.Web.Framework.Controllers;
-using Nop.Web.Framework.Mvc;
-using Nop.Web.Framework.Mvc.Filters;
+using BWire.Services.Common;
+using BWire.Services.Directory;
+using BWire.Services.Localization;
+using BWire.Services.Security;
+using BWire.Services.Stores;
+using BWire.Web.Framework;
+using BWire.Web.Framework.Controllers;
+using BWire.Web.Framework.Mvc;
+using BWire.Web.Framework.Mvc.Filters;
 
 namespace Nop.Plugin.Pickup.PickupInStore.Controllers
 {

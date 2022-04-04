@@ -4,7 +4,7 @@
   "SystemName": "ExternalAuth.Facebook",
   "Version": "1.63",
   "SupportedVersions": [ "4.30" ],
-  "Author": "nopCommerce team",
+  "Author": "b-Wire team",
   "DisplayOrder": 5,
   "FileName": "Nop.Plugin.ExternalAuth.Facebook.dll",
   "Description": "This plugin enables Facebook authentication (login using Facebook account)"

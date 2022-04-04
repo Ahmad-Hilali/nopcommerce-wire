@@ -2,20 +2,26 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <Copyright>Copyright © Nop Solutions, Ltd</Copyright>
-    <Company>Nop Solutions, Ltd</Company>
-    <Authors>Nop Solutions, Ltd</Authors>
+    <Copyright>Copyright © BWire Solutions, Ltd</Copyright>
+    <Company>BWire Solutions, Ltd</Company>
+    <Authors>BWire Solutions, Ltd</Authors>
     <PackageLicenseUrl></PackageLicenseUrl>
-    <PackageProjectUrl>https://www.nopcommerce.com/</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/nopSolutions/nopCommerce</RepositoryUrl>
+    <PackageProjectUrl>https://www.b-Wire.com/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nopSolutions/b-Wire</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
-    <OutputPath>..\..\Presentation\Nop.Web\Plugins\Tax.Avalara</OutputPath>
+    <OutputPath>..\..\Presentation\BWire.Web\Plugins\Tax.Avalara</OutputPath>
     <OutDir>$(OutputPath)</OutDir>
     <!--Set this parameter to true to get the dlls copied from the NuGet cache to the output of your project. 
     You need to set this parameter to true if your plugin has a nuget package 
     to ensure that the dlls copied from the NuGet cache to the output of your project-->
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Views\Log\**" />
+    <EmbeddedResource Remove="Views\Log\**" />
+    <None Remove="Views\Log\**" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Remove="logo.png" />
@@ -25,8 +31,6 @@
     <None Remove="Views\Configuration\_Configuration.cshtml" />
     <None Remove="Views\EntityUseCode\EntityUseCode.cshtml" />
     <None Remove="Views\EntityUseCode\_EntityUseCodeField.cshtml" />
-    <None Remove="Views\Log\List.cshtml" />
-    <None Remove="Views\Log\View.cshtml" />
     <None Remove="Views\Product\ExportItems.cshtml" />
     <None Remove="Views\Product\_ExportItemsButton.cshtml" />
     <None Remove="Views\Product\_ExportItemsForm.cshtml" />
@@ -56,12 +60,6 @@
     <Content Include="Views\EntityUseCode\_EntityUseCodeField.cshtml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Views\Log\List.cshtml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Views\Log\View.cshtml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="Views\Product\ExportItems.cshtml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -84,8 +82,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Presentation\Nop.Web\Nop.Web.csproj" />
     <ClearPluginAssemblies Include="$(MSBuildProjectDirectory)\..\..\Build\ClearPluginAssemblies.proj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Presentation\BWire.Web.Framework\BWire.Web.Framework.csproj" />
+    <ProjectReference Include="..\..\Presentation\BWire.Web\BWire.Web.csproj" />
   </ItemGroup>
 
   <!-- This target execute after "Build" target -->

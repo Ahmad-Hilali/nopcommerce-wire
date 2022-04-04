@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using Nop.Core;
-using Nop.Core.Domain.Messages;
-using Nop.Core.Infrastructure;
-using Nop.Services.Media;
-using Nop.Services.Messages;
+using BWire.Core;
+using BWire.Core.Domain.Messages;
+using BWire.Core.Infrastructure;
+using BWire.Services.Media;
+using BWire.Services.Messages;
 
 namespace Nop.Plugin.Misc.SendinBlue.Services
 {

@@ -5,7 +5,7 @@ using System.Net;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Nop.Plugin.Payments.Manual.Models;
-using Nop.Web.Framework.Components;
+using BWire.Web.Framework.Components;
 
 namespace Nop.Plugin.Payments.Manual.Components
 {

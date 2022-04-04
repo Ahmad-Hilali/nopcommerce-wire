@@ -1,4 +1,4 @@
-﻿using Nop.Web.Framework.Models;
+﻿using BWire.Web.Framework.Models;
 
 namespace Nop.Plugin.Shipping.FixedByWeightByTotal.Models
 {

@@ -1,16 +1,16 @@
 ﻿using System.Collections.Generic;
-using Nop.Core;
-using Nop.Core.Domain.Cms;
-using Nop.Core.Domain.Tasks;
-using Nop.Services.Cms;
-using Nop.Services.Common;
-using Nop.Services.Configuration;
-using Nop.Services.Localization;
-using Nop.Services.Messages;
-using Nop.Services.Plugins;
-using Nop.Services.Stores;
-using Nop.Services.Tasks;
-using Nop.Web.Framework.Infrastructure;
+using BWire.Core;
+using BWire.Core.Domain.Cms;
+using BWire.Core.Domain.Tasks;
+using BWire.Services.Cms;
+using BWire.Services.Common;
+using BWire.Services.Configuration;
+using BWire.Services.Localization;
+using BWire.Services.Messages;
+using BWire.Services.Plugins;
+using BWire.Services.Stores;
+using BWire.Services.Tasks;
+using BWire.Web.Framework.Infrastructure;
 
 namespace Nop.Plugin.Misc.SendinBlue
 {
@@ -129,7 +129,7 @@ namespace Nop.Plugin.Misc.SendinBlue
             {
                 ["Plugins.Misc.SendinBlue.AccountInfo"] = "Account info",
                 ["Plugins.Misc.SendinBlue.AccountInfo.Hint"] = "Display account information.",
-                ["Plugins.Misc.SendinBlue.ActivateSMTP"] = "On your SendinBlue account, the SMTP has not been enabled yet. To request its activation, simply send an email to our support team at contact@sendinblue.com and mention that you will be using the SMTP with the nopCommerce plugin.",
+                ["Plugins.Misc.SendinBlue.ActivateSMTP"] = "On your SendinBlue account, the SMTP has not been enabled yet. To request its activation, simply send an email to our support team at contact@sendinblue.com and mention that you will be using the SMTP with the b-Wire plugin.",
                 ["Plugins.Misc.SendinBlue.AddNewSMSNotification"] = "Add new SMS notification",
                 ["Plugins.Misc.SendinBlue.BillingAddressPhone"] = "Billing address phone number",
                 ["Plugins.Misc.SendinBlue.CustomerPhone"] = "Customer phone number",
@@ -145,7 +145,7 @@ namespace Nop.Plugin.Misc.SendinBlue
                 ["Plugins.Misc.SendinBlue.Fields.CampaignText"] = "Text",
                 ["Plugins.Misc.SendinBlue.Fields.CampaignText.Hint"] = "Specify SMS campaign content. The number of characters is limited to 160 for one message.",
                 ["Plugins.Misc.SendinBlue.Fields.List"] = "List",
-                ["Plugins.Misc.SendinBlue.Fields.List.Hint"] = "Select the SendinBlue list where your nopCommerce newsletter subscribers will be added.",
+                ["Plugins.Misc.SendinBlue.Fields.List.Hint"] = "Select the SendinBlue list where your b-Wire newsletter subscribers will be added.",
                 ["Plugins.Misc.SendinBlue.Fields.MaKey"] = "Tracker ID",
                 ["Plugins.Misc.SendinBlue.Fields.MaKey.Hint"] = "Input your Tracker ID.",
                 ["Plugins.Misc.SendinBlue.Fields.Sender"] = "Send emails from",

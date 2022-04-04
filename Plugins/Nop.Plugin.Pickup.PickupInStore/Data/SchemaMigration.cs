@@ -1,5 +1,5 @@
 ﻿using FluentMigrator;
-using Nop.Data.Migrations;
+using BWire.Data.Migrations;
 using Nop.Plugin.Pickup.PickupInStore.Domain;
 
 namespace Nop.Plugin.Pickup.PickupInStore.Data

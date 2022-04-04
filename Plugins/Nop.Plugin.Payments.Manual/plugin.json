@@ -4,7 +4,7 @@
   "SystemName": "Payments.Manual",
   "Version": "1.53",
   "SupportedVersions": [ "4.30" ],
-  "Author": "nopCommerce team",
+  "Author": "b-Wire team",
   "DisplayOrder": 1,
   "FileName": "Nop.Plugin.Payments.Manual.dll",
   "Description": "This plugin enables credit card payment (stored into database)"

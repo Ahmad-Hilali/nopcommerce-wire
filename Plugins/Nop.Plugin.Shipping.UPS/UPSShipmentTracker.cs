@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using Nop.Plugin.Shipping.UPS.Services;
-using Nop.Services.Shipping.Tracking;
+using BWire.Services.Shipping.Tracking;
 
 namespace Nop.Plugin.Shipping.UPS
 {

@@ -1,13 +1,13 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core;
-using Nop.Core.Caching;
+using BWire.Core;
+using BWire.Core.Caching;
 using Nop.Plugin.Widgets.NivoSlider.Infrastructure.Cache;
 using Nop.Plugin.Widgets.NivoSlider.Models;
-using Nop.Services.Caching;
-using Nop.Services.Configuration;
-using Nop.Services.Media;
-using Nop.Web.Framework.Components;
+using BWire.Services.Caching;
+using BWire.Services.Configuration;
+using BWire.Services.Media;
+using BWire.Web.Framework.Components;
 
 namespace Nop.Plugin.Widgets.NivoSlider.Components
 {

@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Nop.Services.Security;
-using Nop.Services.Tax;
-using Nop.Web.Framework.Components;
-using Nop.Web.Framework.Infrastructure;
+using BWire.Services.Security;
+using BWire.Services.Tax;
+using BWire.Web.Framework.Components;
+using BWire.Web.Framework.Infrastructure;
 
 namespace Nop.Plugin.Tax.Avalara.Components
 {

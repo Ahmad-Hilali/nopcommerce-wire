@@ -2,21 +2,21 @@
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Http;
-using Nop.Core;
-using Nop.Core.Caching;
-using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Tax;
+using BWire.Core;
+using BWire.Core.Caching;
+using BWire.Core.Domain.Customers;
+using BWire.Core.Domain.Tax;
 using Nop.Plugin.Tax.FixedOrByCountryStateZip.Domain;
 using Nop.Plugin.Tax.FixedOrByCountryStateZip.Infrastructure.Cache;
 using Nop.Plugin.Tax.FixedOrByCountryStateZip.Services;
-using Nop.Services.Caching;
-using Nop.Services.Common;
-using Nop.Services.Configuration;
-using Nop.Services.Localization;
-using Nop.Services.Orders;
-using Nop.Services.Payments;
-using Nop.Services.Plugins;
-using Nop.Services.Tax;
+using BWire.Services.Caching;
+using BWire.Services.Common;
+using BWire.Services.Configuration;
+using BWire.Services.Localization;
+using BWire.Services.Orders;
+using BWire.Services.Payments;
+using BWire.Services.Plugins;
+using BWire.Services.Tax;
 
 namespace Nop.Plugin.Tax.FixedOrByCountryStateZip
 {

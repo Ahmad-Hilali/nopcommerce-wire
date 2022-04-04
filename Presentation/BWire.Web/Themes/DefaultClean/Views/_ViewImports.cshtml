@@ -1,0 +1,35 @@
+﻿@inherits BWire.Web.Framework.Mvc.Razor.NopRazorPage<TModel>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@*we remove the default InputTagHelper to prevent the checkbox duplicating: https://stackoverflow.com/questions/42544961/asp-net-core-custom-input-tag-helper-rendering-duplicate-checkboxes*@
+@removeTagHelper Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, BWire.Web.Framework
+@addTagHelper *, MiniProfiler.AspNetCore.Mvc
+
+@using Microsoft.AspNetCore.Mvc.ViewFeatures
+@using Microsoft.Extensions.Primitives
+@using BWire.Web.Extensions
+@using BWire.Web.Framework
+@using BWire.Web.Framework.Extensions
+@using BWire.Web.Framework.Infrastructure
+@using BWire.Web.Framework.Models
+@using BWire.Web.Framework.Security.Captcha
+@using BWire.Web.Framework.Security.Honeypot
+@using BWire.Web.Framework.Themes
+@using BWire.Web.Framework.UI
+@using BWire.Web.Models.Blogs
+@using BWire.Web.Models.Boards
+@using BWire.Web.Models.Catalog
+@using BWire.Web.Models.Checkout
+@using BWire.Web.Models.Cms
+@using BWire.Web.Models.Common
+@using BWire.Web.Models.Customer
+@using BWire.Web.Models.Media
+@using BWire.Web.Models.News
+@using BWire.Web.Models.Newsletter
+@using BWire.Web.Models.Order
+@using BWire.Web.Models.Polls
+@using BWire.Web.Models.PrivateMessages
+@using BWire.Web.Models.Profile
+@using BWire.Web.Models.ShoppingCart
+@using BWire.Web.Models.Topics
+@using BWire.Web.Models.Vendors

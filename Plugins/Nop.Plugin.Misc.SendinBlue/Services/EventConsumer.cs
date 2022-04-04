@@ -1,11 +1,11 @@
-﻿using Nop.Core.Domain.Customers;
-using Nop.Core.Domain.Messages;
-using Nop.Core.Domain.Orders;
-using Nop.Core.Domain.Stores;
-using Nop.Core.Events;
-using Nop.Services.Common;
-using Nop.Services.Events;
-using Nop.Services.Messages;
+﻿using BWire.Core.Domain.Customers;
+using BWire.Core.Domain.Messages;
+using BWire.Core.Domain.Orders;
+using BWire.Core.Domain.Stores;
+using BWire.Core.Events;
+using BWire.Services.Common;
+using BWire.Services.Events;
+using BWire.Services.Messages;
 
 namespace Nop.Plugin.Misc.SendinBlue.Services
 {

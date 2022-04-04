@@ -4,12 +4,12 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.Routing;
-using Nop.Core;
-using Nop.Services.Configuration;
-using Nop.Services.Customers;
-using Nop.Services.Discounts;
-using Nop.Services.Localization;
-using Nop.Services.Plugins;
+using BWire.Core;
+using BWire.Services.Configuration;
+using BWire.Services.Customers;
+using BWire.Services.Discounts;
+using BWire.Services.Localization;
+using BWire.Services.Plugins;
 
 namespace Nop.Plugin.DiscountRules.CustomerRoles
 {

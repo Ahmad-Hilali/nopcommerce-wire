@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq;
-using Nop.Core;
-using Nop.Core.Caching;
-using Nop.Data;
+using BWire.Core;
+using BWire.Core.Caching;
+using BWire.Data;
 using Nop.Plugin.Pickup.PickupInStore.Domain;
-using Nop.Services.Caching;
+using BWire.Services.Caching;
 
 namespace Nop.Plugin.Pickup.PickupInStore.Services
 {

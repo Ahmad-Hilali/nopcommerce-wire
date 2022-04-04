@@ -4,7 +4,7 @@
   "SystemName": "Payments.CheckMoneyOrder",
   "Version": "1.44",
   "SupportedVersions": [ "4.30" ],
-  "Author": "nopCommerce team",
+  "Author": "b-Wire team",
   "DisplayOrder": 1,
   "FileName": "Nop.Plugin.Payments.CheckMoneyOrder.dll",
   "Description": "This plugin enables check and money order payments"

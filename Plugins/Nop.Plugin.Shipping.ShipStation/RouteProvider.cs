@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Routing;
-using Nop.Web.Framework.Mvc.Routing;
+using BWire.Web.Framework.Mvc.Routing;
 
 namespace Nop.Plugin.Shipping.ShipStation
 {

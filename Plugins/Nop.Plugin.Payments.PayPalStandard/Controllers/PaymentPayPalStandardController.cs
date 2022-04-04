@@ -4,21 +4,21 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core;
-using Nop.Core.Domain.Orders;
-using Nop.Core.Domain.Payments;
+using BWire.Core;
+using BWire.Core.Domain.Orders;
+using BWire.Core.Domain.Payments;
 using Nop.Plugin.Payments.PayPalStandard.Models;
-using Nop.Services.Common;
-using Nop.Services.Configuration;
-using Nop.Services.Localization;
-using Nop.Services.Logging;
-using Nop.Services.Messages;
-using Nop.Services.Orders;
-using Nop.Services.Payments;
-using Nop.Services.Security;
-using Nop.Web.Framework;
-using Nop.Web.Framework.Controllers;
-using Nop.Web.Framework.Mvc.Filters;
+using BWire.Services.Common;
+using BWire.Services.Configuration;
+using BWire.Services.Localization;
+using BWire.Services.Logging;
+using BWire.Services.Messages;
+using BWire.Services.Orders;
+using BWire.Services.Payments;
+using BWire.Services.Security;
+using BWire.Web.Framework;
+using BWire.Web.Framework.Controllers;
+using BWire.Web.Framework.Mvc.Filters;
 
 namespace Nop.Plugin.Payments.PayPalStandard.Controllers
 {

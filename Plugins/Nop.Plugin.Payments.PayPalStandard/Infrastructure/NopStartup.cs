@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Nop.Core.Infrastructure;
+using BWire.Core.Infrastructure;
 using Nop.Plugin.Payments.PayPalStandard.Services;
-using Nop.Web.Framework.Infrastructure.Extensions;
+using BWire.Web.Framework.Infrastructure.Extensions;
 
 namespace Nop.Plugin.Payments.PayPalStandard.Infrastructure
 {

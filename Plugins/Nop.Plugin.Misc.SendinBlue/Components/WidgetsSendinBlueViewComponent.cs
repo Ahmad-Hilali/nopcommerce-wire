@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
-using Nop.Core;
-using Nop.Core.Domain.Customers;
-using Nop.Services.Customers;
-using Nop.Web.Framework.Components;
+using BWire.Core;
+using BWire.Core.Domain.Customers;
+using BWire.Services.Customers;
+using BWire.Web.Framework.Components;
 
 namespace Nop.Plugin.Misc.SendinBlue.Components
 {

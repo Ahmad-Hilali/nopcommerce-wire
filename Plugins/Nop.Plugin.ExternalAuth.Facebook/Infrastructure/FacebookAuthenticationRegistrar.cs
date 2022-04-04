@@ -3,8 +3,8 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Facebook;
 using Microsoft.AspNetCore.Authentication.OAuth;
 using Microsoft.Extensions.DependencyInjection;
-using Nop.Core.Infrastructure;
-using Nop.Services.Authentication.External;
+using BWire.Core.Infrastructure;
+using BWire.Services.Authentication.External;
 
 namespace Nop.Plugin.ExternalAuth.Facebook.Infrastructure
 {

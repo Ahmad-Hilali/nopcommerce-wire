@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Nop.Core;
+using BWire.Core;
 using Nop.Plugin.Shipping.UPS.Domain;
 using Nop.Plugin.Shipping.UPS.Services;
-using Nop.Services.Configuration;
-using Nop.Services.Localization;
-using Nop.Services.Plugins;
-using Nop.Services.Shipping;
-using Nop.Services.Shipping.Tracking;
+using BWire.Services.Configuration;
+using BWire.Services.Localization;
+using BWire.Services.Plugins;
+using BWire.Services.Shipping;
+using BWire.Services.Shipping.Tracking;
 
 namespace Nop.Plugin.Shipping.UPS
 {

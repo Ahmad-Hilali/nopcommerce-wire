@@ -1,11 +1,11 @@
 ﻿using System.Linq;
-using Nop.Core.Caching;
-using Nop.Core.Domain.Tax;
-using Nop.Core.Events;
+using BWire.Core.Caching;
+using BWire.Core.Domain.Tax;
+using BWire.Core.Events;
 using Nop.Plugin.Tax.FixedOrByCountryStateZip.Domain;
 using Nop.Plugin.Tax.FixedOrByCountryStateZip.Services;
-using Nop.Services.Configuration;
-using Nop.Services.Events;
+using BWire.Services.Configuration;
+using BWire.Services.Events;
 
 namespace Nop.Plugin.Tax.FixedOrByCountryStateZip.Infrastructure.Cache
 {
